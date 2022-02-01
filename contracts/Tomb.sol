@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity <= 0.8.11;
+pragma solidity <= 0.8.6;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
-import "@openzeppelin/contracts/math/Math.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Burnable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol";
 
 import "./lib/SafeMath8.sol";
 import "./owner/Operator.sol";
